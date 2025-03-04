@@ -1,0 +1,11 @@
+{
+  "extends": "@ignite-ui/ts-config/react.json",
+  "include": ["../src"],
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "paths": {
+      "@ignite-ui/tokens": ["../../tokens/src"]
+    }
+  }
+}
