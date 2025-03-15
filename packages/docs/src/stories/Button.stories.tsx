@@ -1,7 +1,6 @@
 import { Button, ButtonProps } from '@ignite-ui/react'
-
 import { StoryObj, Meta } from '@storybook/react'
-import { ArrowRight } from 'phosphor-react'
+import { ArrowRight } from '@phosphor-icons/react'
 
 export default {
   title: 'Form/Button',
@@ -22,7 +21,7 @@ export default {
       control: 'inline-radio',
     },
     disabled: {
-      controle: {
+      control: {
         type: 'boolean',
       },
     },
