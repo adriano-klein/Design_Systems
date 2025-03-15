@@ -6,11 +6,12 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <Text>Testando o elemento box</Text>
-      </>
-    ),
+    children: <Text>Testando o elemento box</Text>,
+  },
+  argTypes: {
+    children: {
+      control: false,
+    },
   },
 } as Meta<BoxProps>
 
