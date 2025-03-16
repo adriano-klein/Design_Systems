@@ -18,11 +18,8 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Deploy storybook
-      - name: Add .nojekyll file
-        run: touch storybook-static/.nojekyll
         working-directory: ./packages/docs
-        run: >-
-          npm run deploy-storybook -- --ci
-          --existing-output-dir=storybook-static
+        run:
+          run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: '${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}'
