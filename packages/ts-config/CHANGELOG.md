@@ -1,5 +1,11 @@
 # @adriano-ignite-ui/ts-config
 
+## 3.0.0
+
+### Major Changes
+
+- Atualizando os nomes das dependências
+
 ## 2.0.0
 
 ### Major Changes
