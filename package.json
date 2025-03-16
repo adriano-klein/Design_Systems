@@ -5,10 +5,14 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@adriano-ignite-ui/docs && changeset publish"
   },
   "devDependencies": {
-    "@ignite-ui/react": "^1.0.0",
+    "@changesets/cli": "^2.28.1",
+    "@adriano-ignite-ui/react": "^1.0.0",
     "@vitejs/plugin-react": "^4.3.4",
     "turbo": "^2.4.4",
     "vite": "^5.4.14"

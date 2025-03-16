@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: '@ignite-ui/react',
+        find: '@adriano-ignite-ui/react',
         replacement: resolve(__dirname, '../react/src/index.tsx'),
       },
     ],

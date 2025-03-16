@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@adriano-ignite-ui/docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@adriano-ignite-ui/eslint-config": "*",
+    "@adriano-ignite-ui/react": "*",
+    "@adriano-ignite-ui/tokens": "*",
     "next": "14.2.24",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
