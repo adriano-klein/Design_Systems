@@ -18,6 +18,8 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Deploy storybook
+      - name: Add .nojekyll file
+        run: touch storybook-static/.nojekyll
         working-directory: ./packages/docs
         run: >-
           npm run deploy-storybook -- --ci
