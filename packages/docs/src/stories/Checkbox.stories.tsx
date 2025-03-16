@@ -1,4 +1,4 @@
-import { Box, Checkbox, CheckboxProps, Text } from '@ignite-ui/react'
+import { Box, Checkbox, CheckboxProps, Text } from '@adriano-ignite-ui/react'
 
 import { StoryObj, Meta } from '@storybook/react'
 

@@ -1,4 +1,4 @@
-import { Box, TextInput, TextInputProps, Text } from '@ignite-ui/react'
+import { Box, TextInput, TextInputProps, Text } from '@adriano-ignite-ui/react'
 
 import { StoryObj, Meta } from '@storybook/react'
 

@@ -1,11 +1,11 @@
 {
-  "extends": "@ignite-ui/ts-config/react.json",
+  "extends": "@adriano-ignite-ui/ts-config/react.json",
   "include": ["../src"],
   "compilerOptions": {
     "moduleResolution": "nodenext",
     "module": "NodeNext",
     "paths": {
-      "@ignite-ui/tokens": ["../../tokens/src"]
+      "@adriano-ignite-ui/tokens": ["../../tokens/src"]
     }
   }
 }

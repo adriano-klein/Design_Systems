@@ -1,4 +1,4 @@
-# @ignite-ui/ts-config
+# @adriano-ignite-ui/ts-config
 
 ## 2.0.0
 
